@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  width: 100vw;
+  height: 60px;
+  background-color: cadetblue;
+  font-size: 18px;
+}
+
+.navLogo {
+  font-size: 20px;
+}
+
+.navLinks {
+  list-style-type: none;
+  flex: 0.4;
+}
+
+.sideMenu {
+  display: none;
+  width: 48%;
+  background-color: rgba(20, 20, 20, 0.815);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.btnClose {
+  font-size: 25px;
+}
+
+.bgColor {
+  background-color: whitesmoke;
+}
